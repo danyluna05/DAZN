@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>DAZN ​​Web ​​Challenge</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="init()">
+    <div class="container">
+<header class="header">
+    <section>        
+        <h1 class="banner img">
+           <span class="tittle">Movie DB STORE</span>
+        </h1>
+    </section>
+    
+</header>  
+<div class="search-form">    
+    <input id="movie" type="text" class="search-text">
+    <button id="search" type="button" class="search-button">Search</button>
+</div>
+<main class="main-cart"> 
+    <article id="section-movies" class="section-movies">
+        <div id="noResults" class="noResults hidden"></div>
+        <form>
+            <table id="movies-items">
+                <tbody></tbody>
+            </table>
+        </form>
+        <footer class="movie-footer" id="pagination">           
+        </footer>
+    </article>
+</main>
+<footer class="main-footer">
+    <span>DAZN ​​Web ​​Challenge by Daniela Garcia</span>
+</footer>
+</div>
+<script src="components/movieModel/movies.model.js"></script>
+<script src="main.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+</body>
+</html>

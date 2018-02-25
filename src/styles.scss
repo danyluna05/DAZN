@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@import 'themes/main';
+@import 'components/header/header';
+@import 'components/footer/footer';
+@import 'components/movie/movie';
+
+.remove-list-style-type {
+    list-style: none;
+}
+
+.output-text {
+    font-weight: $font-weight-bold;
+}
+
+.input-quantity {
+    margin-right: $horizontal-rythm-spacing-text;
+}
+
+.text-subtitle {
+    color: $c-primary;
+    font-size: $font-size-headline-primary;
+}
+

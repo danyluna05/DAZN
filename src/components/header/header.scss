@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.header {
+    @include theme-background;
+
+    height: 300px;
+
+    .banner {
+        cursor: pointer;
+        width: 98%;
+        height: 260px;
+        position: relative;
+        overflow: auto;
+        color: $c-secondary;
+        margin: 10px;
+
+        .tittle {
+            float: left;
+            position: relative;
+            top: 215px;
+            margin-left: $horizontal-rythm-spacing-text;
+        }
+
+        &.img {
+            background-image: url('themes/movie_reel.jpg');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+    }
+}
